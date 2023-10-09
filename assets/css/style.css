@@ -53,6 +53,9 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.list-inline-item a{
+  color: white;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -109,33 +112,6 @@ h6 {
   display: flex;
   align-items: center;
 }
-
-#header .social-links-2 {
-  display: flex;
-}
-
-#header .social-links-2 a {
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  line-height: 1;
-  margin-right: 20px;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-}
-
-#header .social-links-2 a:hover {
-  background: #18d26e;
-}
-
-
-
-
-
 #header .social-links {
   margin-top: 40px;
   display: flex;
